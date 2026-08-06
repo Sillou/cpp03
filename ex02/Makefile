@@ -17,7 +17,7 @@ CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
 
 SRCS		= main.cpp ClapTrap.cpp Scavtrap.cpp FragTrap.cpp
 OBJS		= $(SRCS:.cpp=.o)
-HEADERS		= ClapTrap.hpp Scavtrap.hpp FragTrap.hpp
+HEADERS		= ClapTrap.hpp ScavTrap.hpp FragTrap.hpp
 
 all: $(NAME)
 
